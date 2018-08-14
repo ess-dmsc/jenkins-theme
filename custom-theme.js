@@ -4,7 +4,7 @@
 function cleanBuildMonitorNames(){
   document.querySelectorAll('#widgets h2 a').forEach(function(a) {
     // remove org name
-    a.innerHTML = a.innerHTML.replace('European Spallation Source ', 'THIS IS A TEST ');
+    a.innerHTML = a.innerHTML.replace('European Spallation Source ', 'THIS IS A NEW TEST ');
   })
 }
 
