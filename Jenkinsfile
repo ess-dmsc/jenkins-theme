@@ -1,4 +1,9 @@
 node {
-  checkout scm
-  archiveArtifacts "custom-theme.js"
+  stage('Checkout') {
+    checkout scm
+  }
+
+  stage('Archive') {
+    archiveArtifacts "theme.js"
+  }
 }

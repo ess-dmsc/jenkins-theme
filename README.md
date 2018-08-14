@@ -1,2 +1,3 @@
-# custom-js
-Copy Javascript file to Jenkins master
+# Jenkins Theme
+
+Customisation for Jenkins monitor views.
